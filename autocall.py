@@ -14,7 +14,7 @@ class Autocall(webapp2.RequestHandler):
     def post(self):
     	# Response to incoming requests
     	r = twiml.Response()
-        r.say("Good afternoon Dan, my name is Jason")
+        r.say("Good afternoon, my name is Jason")
         r.say("The top headline on the front page of Reddit is " + headline)
         # Add a short pause
         r.pause()
